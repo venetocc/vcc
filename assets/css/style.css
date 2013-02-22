@@ -1,0 +1,89 @@
+
+/* ---- Counter ---- */
+
+#counter {
+	/*width: 60%;*/
+	/*height: 145px;*/
+	/*margin: 30px auto 0 auto;*/
+	font-family: 'poppl-laudatiomedium', Arial, Helvetica, sans-serif;
+	/*font-size: 3.75em;*/
+	color: #a70031;
+	text-shadow: 0 .0625em 0 #000;
+	overflow: hidden;
+}
+
+#main h1 {
+	width: 100%;
+	text-align: center;
+	font-family: 'poppl-laudatiomedium', Arial, Helvetica, sans-serif;
+}
+.countDays, .countHours, .countMinutes, .countSeconds {
+	float: left;
+	width: 20%;
+	height: 138px;
+	max-width: 102px;
+	background: #777;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255,255,255,.1)), to(rgba(0,0,0,.07)));
+	background-image: -webkit-linear-gradient(top, rgba(255,255,255,.1), rgba(0,0,0,.07));
+	background-image: -moz-linear-gradient(top, rgba(255,255,255,.1), rgba(0,0,0,.07)); 
+	background-image: -ms-linear-gradient(top, rgba(255,255,255,.1), rgba(0,0,0,.07)); 
+	background-image: -o-linear-gradient(top, rgba(255,255,255,.1), rgba(0,0,0,.07));
+	background-image: linear-gradient(top, rgba(255,255,255,.1), rgba(0,0,0,.07));
+	border: 1px solid #ccc;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+	-moz-box-shadow:
+		0 2px 3px 0 rgba(255,255,255,.2) inset,
+		0 2px 2px 0 rgba(0,0,0,.1);
+	-webkit-box-shadow:
+		0 2px 3px 0 rgba(255,255,255,.2) inset,
+		0 2px 2px 0 rgba(0,0,0,.1);
+	box-shadow:
+		0 2px 3px 0 rgba(255,255,255,.2) inset,
+		0 2px 2px 0 rgba(0,0,0,.1);
+}
+
+
+.points {
+	float: left;
+	width: 4.8%;
+	margin: 0;
+	font-family: 'poppl-laudatiomedium', Arial, Helvetica, sans-serif;
+	/*font-size: 1em;*/
+	font-weight: bold;
+	text-align: center;
+	/*line-height: 2.6em;*/
+	color: #000;
+	text-shadow: none;
+
+}
+
+.position {
+	position: relative;
+	float: left;
+	width: 34.3%;
+	height: 63.45%;
+	top: 25%;
+}
+
+.position:first-child {
+	margin: 0 0 0 17%;
+}
+
+.digit {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.boxName {
+	width: 100%;
+	position: relative;
+	text-align: center;
+	/*font-size: .5em;*/
+	color: #d0a424;
+	text-shadow: 0 .08em 0 rgba(0,0,0,1);
+	display: block;
+}
+

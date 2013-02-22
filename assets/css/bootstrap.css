@@ -223,11 +223,11 @@ textarea {
 
 body {
   margin: 0;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'poppl-laudatiomedium', Arial, Helvetica, sans-serif;
   font-size: 14px;
   line-height: 20px;
   color: #333333;
-  background-color: #ffffff;
+  background-color: #d0a424;
 }
 
 a {
@@ -4341,9 +4341,9 @@ input[type="submit"].btn.btn-mini {
   float: left;
   padding: 10px 20px 10px;
   margin-left: -20px;
-  font-size: 20px;
+  font-size: 1.8em;
   font-weight: 200;
-  color: #777777;
+  color: #000;
   text-shadow: 0 1px 0 #ffffff;
 }
 
@@ -4733,7 +4733,7 @@ input[type="submit"].btn.btn-mini {
 }
 
 .navbar-inverse .brand {
-  color: #999999;
+  color: #a70031;
 }
 
 .navbar-inverse .navbar-text {

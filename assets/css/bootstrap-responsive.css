@@ -443,6 +443,26 @@
   .row-fluid .thumbnails {
     margin-left: 0;
   }
+  #main h1 {
+    font-size: 2.8em;
+    line-height: 1.4em;
+  }
+  #counter {
+    width: 77%;
+    height: 145px;
+    margin: .3em auto 0 auto;
+    font-size: 3.75em;
+  }
+  .points {
+    font-size: 1em;
+    line-height: 2.6em;
+  }
+  .boxName {
+    font-size: .5em;
+  }
+  .countDays {
+    margin-left: 20%;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 979px) {
@@ -784,6 +804,26 @@
   .uneditable-input.span1 {
     width: 28px;
   }
+   #main h1 {
+    font-size: 2.1em;
+    line-height: 1.3em;
+  }
+  #counter {
+    width: 78%;
+    height: 3.5em;
+    margin: 10px auto 0 auto;
+    font-size: 3em;
+  }
+  .points {
+    font-size: 1em;
+   line-height: 2.6em;
+  }
+  .boxName {
+    font-size: .5em;
+  }
+  .countDays {
+    margin-left: 5%
+  }
 }
 
 @media (max-width: 767px) {
@@ -933,6 +973,49 @@
   }
   .carousel-caption {
     position: static;
+  }
+  #main h1 {
+    font-size: 1.2em;
+    line-height: .75em;
+  }
+  #counter {
+    width: 80%;
+    height: 3.25em;
+    margin: 10px auto 0 auto;
+    font-size: 1.75em;
+  }
+  .points {
+    font-size: .9em;
+    line-height: 3.5em;
+  }
+  .boxName {
+    font-size: .5em;
+  }
+  .countDays {
+    margin-left: 0%
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+   #main h1 {
+    font-size: 1.65em;
+    line-height: .9em;
+  }
+  #counter {
+    width: 79%;
+    height: 4.95em;
+    margin: 10px auto 0 auto;
+    font-size: 2em;
+  }
+  .points {
+    font-size: .95em;
+    line-height: 3.5em;
+  }
+  .boxName {
+    font-size: .5em;
+  }
+  .countDays {
+    margin-left: 3%
   }
 }
 
@@ -1089,4 +1172,27 @@
     height: auto !important;
     overflow: visible !important;
   }
+}
+
+@media (min-width: 980px) and (max-width: 1199px) {
+  #main h1 {
+    font-size: 2.8em;
+    line-height: 1.4em;
+  }
+  #counter {
+    width: 77%;
+    height: 145px;
+    margin: .3em auto 0 auto;
+    font-size: 3.75em;
+  }
+  .points {
+    font-size: 1em;
+    line-height: 2.6em;
+  }
+  .boxName {
+    font-size: .5em;
+  }
+  .countDays {
+  margin-left: 12%;
+}
 }
